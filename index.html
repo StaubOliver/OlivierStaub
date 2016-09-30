@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="cv">
+    <head>
+        <title>Olivier Staub</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="CSS, HTML, Javascript">
+        <meta name="author" content="Olivier Staub">
+        <meta name="description" content="">
+
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <!--AnuglarJS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+        <!-- Google font-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+        <!--CSS-->
+        <link href="assets/css/main.css" rel="stylesheet">
+
+        <!--JS-->
+        <script src="assets/js/data.js"></script>
+        <script src="assets/js/bigtext.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <!--JS code-->
+        <script>
+            
+
+
+        </script>
+
+        <!--CSS-->
+        <style>
+
+            
+
+
+        </style>
+    </head>
+    <body ng-controller="content">
+
+
+        <div class="header">
+
+            <div class="title_block">
+                <div class="line1">OLIVIER STAUB</div>
+                <div class="line2">Ingénieur en informatique</div>
+            </div>
+
+        </div>
+
+        <div class="section" id="section1">
+            <div class='container'>
+                <div class='section_title'>FORMATION</div>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>MAE Master Administration des Entreprises</p>
+                            </div>
+                            <div class='col-md-6 loc'>
+                                <p>Ecole de management de Strasbourg</p>
+                            </div>
+                        
+                            <div class='col-md-6 date'>
+                                <p>2016 - 2017</p>
+                            </div>
+                            <div class='col-md-12 summary'>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Master d'informatique</p>
+                            </div>
+                            <div class='col-md-6 loc'>
+                                <p>Université de Manchester</p>
+                            </div>
+                        
+                            <div class='col-md-6 date'>
+                                <p>2015 - 2016</p>
+                            </div>
+                            <div class='col-md-12 summary'>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Diplôme d'ingénieur en informatique</p>
+                            </div>
+                            <div class='col-md-6 loc'>
+                                <p>ENSIIE Strasbourg</p>
+                            </div>
+                        
+                            <div class='col-md-6 date'>
+                                <p>2013 - 2015</p>
+                            </div>
+                            <div class='col-md-12 summary'>
+
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+
+
+        <!--
+
+        <div class='container'>
+
+            <div class='row header'>
+                
+                <div class='col-md-6 left'>
+                    <p class='title'>Olivier</p>
+                </div>
+
+                <div class='col-md-6 right'>
+
+                    <div class='section_link'>
+                        <p class='section_text' ng-class="{'selected':section=='4'}" ng-click="new_section(4)">{{sections_text.personel}}</p>
+                    </div>
+                    
+                    <div class='section_link'>
+                        <p class='section_text' ng-class="{'selected':section=='3'}" ng-click="new_section(3)">{{sections_text.competences}}</p>
+                    </div>
+
+                    <div class='section_link'>
+                        <p class='section_text' ng-class="{'selected':section=='2'}" ng-click="new_section(2)">{{sections_text.experience}}</p>
+                    </div>
+
+                     <div class='section_link selected'>
+                        <p class='section_text' ng-class="{'selected':section=='1'}" ng-click="new_section(1)">{{sections_text.formation}}</p>
+                    </div>
+
+                </div>
+            
+            </div>
+
+            <div class='content'>
+
+                <div ng-repeat="card in content">
+
+                    <div class='card'>
+                        <div class='row'>
+
+                            <div class='col-md-12 title'>
+                                <p>{{card.title}}</p>
+                            </div>
+
+                            <div class='col-md-6 loc'>
+                                <p>{{card.loc}}</p>
+                            </div>
+                        
+                            <div class='col-md-6 date'>
+                                <p>{{card.date}}</p>
+                            </div>
+                            
+                            <div class='col-md-12 summary'>
+
+                            </div>
+
+                        
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        -->
+
+    </body>
+</html>

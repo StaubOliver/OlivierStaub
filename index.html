@@ -25,9 +25,12 @@
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
         <!--CSS-->
+        <link href="assets/css/jquery.fullPage.css" rel="stylesheet">
         <link href="assets/css/main.css" rel="stylesheet">
 
         <!--JS-->
+        <script src="assets/js/vendors/scrolloverflow.min.js"></script>
+        <script src="assets/js/jquery.fullPage.js"></script>
         <script src="assets/js/data.js"></script>
         <script src="assets/js/bigtext.js"></script>
         <script src="assets/js/main.js"></script>
@@ -49,19 +52,68 @@
     </head>
     <body ng-controller="content">
 
-
-        <div class="header">
+        <div id="header" class="header">
 
             <div class="title_block">
                 <div class="line1">OLIVIER STAUB</div>
-                <div class="line2">Ingénieur en informatique</div>
+                <div class="line2">Etudiant ingénieur en informatique</div>
             </div>
 
+            <div class="title_icons">
+
+                <a href="https://fr.linkedin.com/in/staubolivier" target="#">
+                    <img class="icon" src="assets/img/linkedin.png" alt="Linkedin" height="32" width="32">
+                </a>
+
+                <a href="http://www.viadeo.com/p/0021qe5to9hplp6w" target="#">
+                    <img class="icon" src="assets/img/viadeo.png" alt="Viadeo" height="32" width="32">
+                </a>
+
+                <a href="mailto:staub.olivier@gmail.com" target="#">
+                    <img class="icon" src="assets/img/mail.png" alt="Email" height="32" width="32">
+                </a>
+
+                <a href="assets/cv_olivier_staub.pdf" target="#">
+                    <img class="icon" src="assets/img/cv.png" alt="Twitter" height="32" width="32">
+                </a>
+
+                <!--
+                <a href="" target="#">
+                    <img class="icon" src="assets/img/facebook.png" alt="Facebook" height="32" width="32">
+                </a>
+
+                <a href="https://twitter.com/staub_olivier" target="#">
+                    <img class="icon" src="assets/img/twitter.png" alt="Twitter" height="32" width="32">
+                </a>
+                -->
+            </div>
         </div>
 
-        <div class="section" id="section1">
-            <div class='container'>
+
+        <div id='fullpage' class="fullpage-wrapper">
+
+            
+            <div class="section" id="section_hello">
+                <img class="hello_profil" src="assets/img/profil.png" alt="Twitter" height="150" width="150">
+                <div class='hello_title'>HELLO</div>
+                <div class='hello_text'>
+                    <div class='hello_line'>
+                        Je m'appelle Olivier, j'ai 23 ans et je termine actuellement mes études d'ingénieur/manager dans la belle ville de Strasbourg. 
+                        J'aime le design, l'esthétisme, la simplicité, les belles choses bien faites et les projets qui comptent.
+                    </div>
+                    <div class='hello_line'>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="section" id="section_formation">
                 <div class='section_title'>FORMATION</div>
+                
+                <div class='container'>
+                    
 
                     <div class='card'>
                         <div class='row'>
@@ -78,13 +130,18 @@
                             <div class='col-md-12 summary'>
 
                             </div>
+                            <div class="col-md-12 techno">
+                                <p>
+
+                                </p>
+                            </div>
                         </div>
                     </div>
 
                     <div class='card'>
                         <div class='row'>
                             <div class='col-md-12 title'>
-                                <p>Master d'informatique</p>
+                                <p>Master d'informatique (MSc Advanced Computer Science)</p>
                             </div>
                             <div class='col-md-6 loc'>
                                 <p>Université de Manchester</p>
@@ -94,7 +151,9 @@
                                 <p>2015 - 2016</p>
                             </div>
                             <div class='col-md-12 summary'>
+                                <p>
 
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -112,13 +171,255 @@
                                 <p>2013 - 2015</p>
                             </div>
                             <div class='col-md-12 summary'>
+                                <p>
 
+                                </p>
                             </div>
                         </div>
                     </div>
 
+                </div>
             </div>
+
+
+
+            <div class="section" id="section_experience">
+                <div class='section_title'>EXPERIENCE</div>
+
+                <div class='container'>
+
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Projet de recherche</p>
+                            </div>
+                            <div class='col-md-6 loc'>
+                                <p>Université de Manchester</p>
+                            </div>
+                        
+                            <div class='col-md-6 date'>
+                                <p>6 mois - mars à septembre 2016</p>
+                            </div>
+                            <div class='col-md-12 summary'>
+                                <p>
+                                    Projet de recherche individuel portant sur la découverte de connaissances par des internautes. 
+                                    Ce projet a été réalisé en partenariat avec le Musée de Manchester qui possède une grande collection de fossils dans ses archives 
+                                    (plus de 100 000). La question posée est de 
+                                </p>
+
+                            </div>
+                            <div class="col-md-12 techno">
+                                <p>
+                                    AngularJS CSS HTLM PHP CodeIgniter MySQL
+                                </p>
+                            </div>
+                            <div class='col-md-12 link'>
+                                <a href="https://natureslibrary.co.uk/map">Lien vers l'application</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Développement web .NET</p>
+                            </div>
+                            <div class='col-md-6 loc'>
+                                <p>Kercia Solutions</p>
+                            </div>
+                        
+                            <div class='col-md-6 date'>
+                                <p>10 semaines - été 2015</p>
+                            </div>
+                            <div class='col-md-12 summary'>
+                                <p>
+                                    Kercia est une SSII qui développe un logiciel de vote en ligne (pour des élections professionnelles). 
+                                    Elle pilote toutes les étapes du vote jusqu'à la plublications des résusltats ainsi que des procès verbaux. 
+                                    J'ai intégré leur équipe de développement dans le but d'intégrer le calendrier des élections à la plateforme.
+                                    Cet ajout permet une meilleure communication entre les chefs de projets et les responsables des élections.
+                                </p>
+                            </div>
+                            <div class='col-md-12 techno'>
+                                <p>
+                                    .NET C# MVC HTML CSS Javascript SQL Server
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Développement .NET</p>
+                            </div>
+                            <div class='col-md-6 loc'>
+                                <p>IFS France</p>
+                            </div>
+                        
+                            <div class='col-md-6 date'>
+                                <p>8 semaines - été 2014</p>
+                            </div>
+                            <div class='col-md-12 summary'>
+                                <p>
+                                    Développement d'une application sur mesure permettant de gerer la sauvegarde de bases de données Oracle. 
+                                    L'application surveille plusieurs serveurs en temps réel et ajoute à sa planification les bases nouvellement déployées. 
+                                    Les sauvegardes sont effectuées par serveurs selon un frequence définie.
+                                </p>
+                            </div>
+                            <div class="col-md-12 techno">
+                                <p>
+                                    .NET C# Winform Oracle MySQL
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                
+                </div>
+            </div>
+
+
+
+            <div class="section" id="section_competences">
+                <div class="section_title">COMPETENCES</div>
+
+                <div class='container'>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Langues</p>
+                            </div>
+                            <div class="col-md-12 comp">
+                                <p>Français, langue maternelle</p>
+                            </div>
+                            <div class='col-md-12 comp'>
+                                <p>Anglais, bon niveau, j'ai vécu 1 an en Angleterre, à Manchester (TOEIC 970/990)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Web</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Ruby on Rails</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>PHP</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>HTML</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>CSS</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Javascript</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>AngularJS</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Développement</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>.NET C# MVC</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>C/C++</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>OpenGL 3</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Java</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Python</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Ocaml</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Système</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Linux</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Shellscript</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Windows</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Base de données</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>UML (Merise)</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>MySQL (Oracle), PostgreSQL</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>NoSQL (MongoDB, BaseX)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card'>
+                        <div class='row'>
+                            <div class='col-md-12 title'>
+                                <p>Logiciels</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Visual Studio</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Jet Brains</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>VMware</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Suite Office</p>
+                            </div>
+                            <div class="col-md-4 comp">
+                                <p>Adobe CC</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
         </div>
+
+    </body>
 
 
         <!--

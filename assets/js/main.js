@@ -9,6 +9,17 @@ var cv = angular.module('cv', [])
     
     $('#bigtext').bigtext();
 
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            navigation: true,
+            navigationPosition: "right",
+            paddingTop: '200px',
+            fixedElements: '#header',
+            verticalCentered: false, 
+            scrollOverflow: true
+        });
+    });
+
     $scope.content = {};
 
     $scope.new_section = function(section)

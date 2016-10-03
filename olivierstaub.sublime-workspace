@@ -1,0 +1,984 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"arra",
+				"arrayToDataTable"
+			],
+			[
+				"query",
+				"query_actions"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"vis",
+				"visitor"
+			],
+			[
+				"selectedAge",
+				"selectedAgeMax"
+			],
+			[
+				"selected",
+				"selectedAgeMin"
+			],
+			[
+				"map",
+				"map_admin"
+			],
+			[
+				"where",
+				"where_string"
+			],
+			[
+				"age_",
+				"age_max"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"no",
+				"noMore"
+			],
+			[
+				"load",
+				"loadingContributions"
+			],
+			[
+				"contr",
+				"contributionIndex"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"change",
+				"changeUniqueId"
+			],
+			[
+				"select",
+				"selectedUniqueId"
+			],
+			[
+				"nb_part_da",
+				"nb_part_data_exploration_group_a"
+			],
+			[
+				"nb_data_exploration_grou",
+				"nb_part_data_exploration_group_a"
+			],
+			[
+				"p_part_grou",
+				"p_part_group_a"
+			],
+			[
+				"row",
+				"row_array"
+			],
+			[
+				"uniu",
+				"unique_id"
+			],
+			[
+				"des",
+				"deselected"
+			],
+			[
+				"F",
+				"Feedback"
+			],
+			[
+				"fput",
+				"fputs"
+			],
+			[
+				"read",
+				"readfile"
+			],
+			[
+				"new",
+				"newLng"
+			],
+			[
+				"newL",
+				"newLng"
+			],
+			[
+				"ne",
+				"newLat"
+			],
+			[
+				"has",
+				"has_coordinates"
+			],
+			[
+				"conversion",
+				"conversion_failed"
+			],
+			[
+				"selectedF",
+				"selectedFossil"
+			],
+			[
+				"list",
+				"list_fossils_with_coordinates"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"project",
+				"project_1_data"
+			],
+			[
+				"refre",
+				"refreshFeedback"
+			],
+			[
+				"totl",
+				"total_participants"
+			],
+			[
+				"total",
+				"total_participants"
+			],
+			[
+				"nb_shar",
+				"nb_share_contribution"
+			],
+			[
+				"sele",
+				"selectedFossilLocation"
+			],
+			[
+				"data",
+				"data_id"
+			],
+			[
+				"result",
+				"result_array"
+			],
+			[
+				"succ",
+				"successCollector"
+			],
+			[
+				"se",
+				"selectedCollector2"
+			],
+			[
+				"su",
+				"successCollector"
+			],
+			[
+				"selectedCo",
+				"selectedCollector1"
+			],
+			[
+				"refres",
+				"refreshCollector"
+			],
+			[
+				"error",
+				"errorCollector"
+			],
+			[
+				"selectedC",
+				"selectedCollector1"
+			],
+			[
+				"selectedCollector",
+				"selectedCollector2"
+			],
+			[
+				"REFRESH",
+				"refreshCollector"
+			],
+			[
+				"refresh",
+				"refresh_tab"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"paddingt",
+				"padding-bottom"
+			],
+			[
+				"paddig",
+				"padding-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"tot_",
+				"tot_action_per_visit"
+			],
+			[
+				"tot_dw",
+				"tot_dwell_per_visit"
+			],
+			[
+				"tot_action",
+				"tot_action_per_visit"
+			],
+			[
+				"stat_dwell",
+				"stat_dwell_per_visit"
+			],
+			[
+				"stat_action",
+				"stat_action_per_visit"
+			],
+			[
+				"stat_actin",
+				"stat_action_per_visitor"
+			],
+			[
+				"dwell_",
+				"dwell_per_visit"
+			],
+			[
+				"stats_s",
+				"stats_standard_deviation"
+			],
+			[
+				"cal",
+				"calculate_median"
+			],
+			[
+				"act",
+				"action_per_visitor"
+			],
+			[
+				"action",
+				"action_per_visitor"
+			],
+			[
+				"dwell",
+				"dwell_per_visit"
+			],
+			[
+				"visit",
+				"visit_details"
+			],
+			[
+				"visitor_",
+				"visitor_details"
+			],
+			[
+				"temp",
+				"temp_tot_time"
+			],
+			[
+				"n",
+				"nb_visits"
+			],
+			[
+				"inf",
+				"inf_equal"
+			],
+			[
+				"query_lat",
+				"query_last_id"
+			],
+			[
+				"acti",
+				"activity_id"
+			],
+			[
+				"quer",
+				"query_bounds"
+			],
+			[
+				"num",
+				"num_rows"
+			],
+			[
+				"p_re",
+				"p_click_reply"
+			],
+			[
+				"p_feed",
+				"p_feedback_click"
+			],
+			[
+				"p_fee",
+				"p_feedback_hover"
+			],
+			[
+				"p_chan",
+				"p_filter_genus_change"
+			],
+			[
+				"p_ho",
+				"p_filter_genus_hover"
+			],
+			[
+				"p_coll",
+				"p_filter_collector_change"
+			],
+			[
+				"p_foss",
+				"p_click_on_fossil"
+			],
+			[
+				"p",
+				"p_map_click"
+			],
+			[
+				"p_map",
+				"p_map_zoom_out"
+			],
+			[
+				"avg",
+				"avg_med"
+			],
+			[
+				"hist",
+				"hist_class"
+			],
+			[
+				"nb",
+				"nb_action_fct_dwell"
+			],
+			[
+				"nb_ac",
+				"nb_action_fct_dwell"
+			],
+			[
+				"nb_a",
+				"nb_action_fct_dwell"
+			],
+			[
+				"max_v",
+				"max_visit_dwell"
+			],
+			[
+				"min",
+				"min_visit_dwell"
+			],
+			[
+				"med",
+				"med_visit_dwell"
+			],
+			[
+				"secon",
+				"secondsToTime"
+			],
+			[
+				"calculate_",
+				"calculate_median"
+			],
+			[
+				"avg_",
+				"avg_med"
+			],
+			[
+				"uniqe",
+				"unique_id"
+			],
+			[
+				"draw",
+				"drawHistogram"
+			],
+			[
+				"unique",
+				"unique_id"
+			],
+			[
+				"nb_map",
+				"nb_map_pan"
+			],
+			[
+				"nb_",
+				"nb_map_pan"
+			],
+			[
+				"onbefore",
+				"onbeforeunload\tAttr"
+			],
+			[
+				"un",
+				"unique_id_where_clause"
+			],
+			[
+				"feed",
+				"feedback_click"
+			],
+			[
+				"nb_feed",
+				"nb_feedback_hover"
+			],
+			[
+				"nb_filter",
+				"nb_filter_genus_change"
+			],
+			[
+				"filter_ge",
+				"filter_genus_change"
+			],
+			[
+				"nb_filt",
+				"nb_filter_geological_change"
+			],
+			[
+				"nb_cl",
+				"nb_clear_fossil_selection"
+			],
+			[
+				"nb_fossil",
+				"nb_fossil_selected"
+			],
+			[
+				"nb_map_",
+				"nb_map_zoom_out"
+			],
+			[
+				"map_zoom",
+				"nb_map_zoom_in"
+			],
+			[
+				"genera",
+				"generalStats"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"fee",
+				"feedbacks"
+			],
+			[
+				"O",
+				"Oligocene"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"maker",
+				"markers_age"
+			],
+			[
+				"mrker",
+				"marker_clicked_for_selection"
+			],
+			[
+				"seec",
+				"selected_markers"
+			],
+			[
+				"age",
+				"age_min"
+			],
+			[
+				"agem",
+				"age_min"
+			],
+			[
+				"selectedA",
+				"selectedAgeMax"
+			],
+			[
+				"dese",
+				"deselect_all_marker"
+			],
+			[
+				"margi",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 19689,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 3182,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/main.js",
+			"settings":
+			{
+				"buffer_size": 915,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/data.js",
+			"settings":
+			{
+				"buffer_size": 857,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 165.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Olivier/GitHub/OlivierStaub",
+		"/Users/Olivier/GitHub/OlivierStaub/assets",
+		"/Users/Olivier/GitHub/OlivierStaub/assets/css",
+		"/Users/Olivier/GitHub/OlivierStaub/assets/js"
+	],
+	"file_history":
+	[
+		"/Users/Olivier/hubiC/Manchester/Project/rnl-development/application/config/routes.php",
+		"/Users/Olivier/hubiC/Manchester/Project/rnl-development/public/assets/js/map.js",
+		"/Users/Olivier/hubiC/Manchester/Project/rnl-development/application/models/MapModel.php",
+		"/Users/Olivier/hubiC/Manchester/Project/rnl-development/application/controllers/Admin.php",
+		"/Users/Olivier/hubiC/Manchester/Project/rnl-development/application/views/admin_list.php",
+		"/Users/Olivier/hubiC/Manchester/Project/rnl-development/application/views/admin.php",
+		"/Users/Olivier/hubiC/Manchester/Project/rnl-development/application/models/ProfileModel.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"function",
+			"[$",
+			"nbF",
+			"markers_age",
+			"cursor",
+			"refreshLegend",
+			"loadFed",
+			"}\n",
+			"\n            ",
+			"total_participants",
+			"distinct",
+			"nb_part_contribution",
+			"Nb of actions in class",
+			"Persons",
+			"\");\n",
+			"click_on_marker_for",
+			"info",
+			"has_coordinates",
+			"selectedFossil",
+			"nb_",
+			"p_",
+			"total",
+			"from",
+			"select",
+			"*",
+			"query_part_map_zoom_out",
+			"total",
+			"sharing",
+			"Sharing",
+			"admin",
+			"latLng",
+			"';\n",
+			"Error",
+			"'-",
+			"});\n",
+			"loadCollector",
+			"Collector",
+			"Collectors",
+			"padding",
+			"cols",
+			"title",
+			"max",
+			"avg_med",
+			"dwell_per_visitor",
+			"action_per_visitor",
+			"general",
+			"visit",
+			"class",
+			"Class",
+			"2",
+			"4",
+			"min_visit_dwell",
+			"2",
+			"recordA",
+			"logAc",
+			"recordActi",
+			"3",
+			"query_map_zoom_in",
+			"nb_map_click",
+			">\n",
+			"6",
+			"start",
+			"4",
+			"3",
+			"4",
+			"php",
+			"console.log",
+			"http",
+			"select",
+			"feedback.selection[i]",
+			"j",
+			"feedback",
+			"age_min",
+			"From",
+			"return",
+			"32",
+			"24",
+			"64",
+			"169",
+			"over",
+			"deselect_all",
+			"geocode",
+			"in_age_range",
+			"filter['age",
+			"h6",
+			"rz-pointer",
+			"rz-bubble",
+			"p",
+			"h6",
+			"pin_standard",
+			"Paleogene",
+			"paleogene",
+			"Paleogene",
+			"Quaternary",
+			"pin_quaternary",
+			"getPin",
+			"user_id",
+			"cursor",
+			"ProfileModel",
+			"user_id",
+			"error",
+			"\t\t\t\t\t$",
+			"feedback",
+			"split",
+			"success",
+			"query_filter",
+			"212a33",
+			"refresh",
+			"Fossil",
+			"selected_markers",
+			"user_id",
+			"user_if",
+			"'],",
+			"marker_cli",
+			"\t\t\n",
+			"item",
+			"info",
+			"setm",
+			"onclick ",
+			"ng-controller",
+			"});\n",
+			"activity"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								975,
+								975
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "assets/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								778,
+								778
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/js/data.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								832,
+								832
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "olivierstaub.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

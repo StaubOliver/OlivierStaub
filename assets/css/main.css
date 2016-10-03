@@ -5,18 +5,60 @@ body{
     color: #FFFFFF;
 }
 
-p{
+p, a{
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 0px !important;
 }
 
 .header{
-    width:100%;
-    
+    top:0px;
+    position: fixed;
+    height: 200px;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    background-color: #253143;
+}
+
+#section_hello{
+    text-align: center;
+}
+
+.hello_profil{
+    margin-top:80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hello_title{
+    margin-top:25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.hello_text{
+    width:650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hello_line{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    line-height: 25px;
+    margin-top: 35px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.hello_bottom{
+
 }
 
 .title_block{
-    width:650px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -35,25 +77,37 @@ p{
     text-align: center;
 }
 
+.title_icons{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.title_block>.title_icons>a>.icon{
+    cursor: pointer;
+}
+
 .section{
-    padding-top:20px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
-.section>.container>.section_title{
+.section_title{
     font-family: 'Oswald', sans-serif;
     font-size: 64px;
     opacity: 0.3;
+    margin-left:30px;
 }
 
-#section1{
+
+/*
+#section_formation, #section_competences{
     background-color: #253143;
 }
-
-#seciont2{
-
-}
-
+*/
 
 .card{
     background-color:#FFFFFF;

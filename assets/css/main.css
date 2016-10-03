@@ -20,8 +20,62 @@ p, a{
     background-color: #253143;
 }
 
+.icon{
+
+    text-align: center;
+    display: inline-block;
+}
+
 #section_hello{
     text-align: center;
+}
+
+#icon_linkedin{
+    background-image: url('linkedin.png');
+    width:32px;
+    height:32px;
+    background-size: 32px 32px;
+}
+
+#icon_linkedin:hover{
+    background-image: url('linkedin_hover.png');
+    background-size: 32px 32px;
+}
+
+#icon_viadeo{
+    background-image: url('viadeo.png');
+    width:32px;
+    height:32px;
+    background-size: 32px 32px;
+}
+
+#icon_viadeo:hover{
+    background-image: url('viadeo_hover.png');
+    background-size: 32px 32px;
+}
+
+#icon_mail{
+    background-image: url('mail.png');
+    width:32px;
+    height:32px;
+    background-size: 32px 32px;
+}
+
+#icon_mail:hover{
+    background-image: url('mail_hover.png');
+    background-size: 32px 32px;
+}
+
+#icon_cv{
+    background-image: url('cv.png');
+    width:32px;
+    height:32px;
+    background-size: 32px 32px;
+}
+
+#icon_cv:hover{
+    background-image: url('cv_hover.png');
+    background-size: 32px 32px;
 }
 
 .hello_profil{
@@ -83,7 +137,6 @@ p, a{
     margin-right: auto;
     margin-bottom: 20px;
     text-align: center;
-    
 }
 
 .title_block>.title_icons>a>.icon{

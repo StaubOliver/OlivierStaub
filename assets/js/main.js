@@ -16,7 +16,13 @@ var cv = angular.module('cv', [])
             paddingTop: '200px',
             fixedElements: '#header',
             verticalCentered: false, 
-            scrollOverflow: true
+            scrollOverflow: true,
+            onLeave: function(index, nextIndex, direction){},
+        afterLoad: function(anchorLink, index){},
+        afterRender: function(){},
+        afterResize: function(){},
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
         });
     });
 
